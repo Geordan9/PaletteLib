@@ -61,5 +61,11 @@
   <ItemGroup>
     <None Include="GeoDotNetKey.pfx" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\VFSILib\VFSILib\VFSILib.csproj">
+      <Project>{74139b5e-9bf9-4b11-a11a-bb44a4384029}</Project>
+      <Name>VFSILib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

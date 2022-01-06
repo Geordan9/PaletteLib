@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaletteLib", "PaletteLib\PaletteLib.csproj", "{3D9A7EFD-6AA6-4560-BC2B-E403A6B55C47}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{2B84F393-DB66-4E64-828F-450A71766339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VFSILib", "..\VFSILib\VFSILib\VFSILib.csproj", "{74139B5E-9BF9-4B11-A11A-BB44A4384029}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{3D9A7EFD-6AA6-4560-BC2B-E403A6B55C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D9A7EFD-6AA6-4560-BC2B-E403A6B55C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D9A7EFD-6AA6-4560-BC2B-E403A6B55C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74139B5E-9BF9-4B11-A11A-BB44A4384029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74139B5E-9BF9-4B11-A11A-BB44A4384029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74139B5E-9BF9-4B11-A11A-BB44A4384029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74139B5E-9BF9-4B11-A11A-BB44A4384029}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74139B5E-9BF9-4B11-A11A-BB44A4384029} = {2B84F393-DB66-4E64-828F-450A71766339}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8F628DD-713F-4228-B18A-DB70470C405C}
